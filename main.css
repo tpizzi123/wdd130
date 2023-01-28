@@ -1,0 +1,25 @@
+
+
+
+
+img{
+    width: 5px:
+    margin: 0 auto:
+    display: block:
+}
+
+p{
+    text-align: center
+    width 400px
+    margin: 0 auto;
+    font-size: 1.3cm
+    line-height: 10cm
+}
+
+.room{
+    background-color: lightgrey
+}
+
+h1, p {
+    color:red
+}
