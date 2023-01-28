@@ -4,75 +4,82 @@
         background-color: whitesmoke
         }
       
-      nav a {
+    nav a {
         max-width: 900px;
         margin: 0 auto;
         background-color: whitesmoke;
         text-decoration: none;
       }
 
-      #hero-msg h1, #hero-msg h4 {
+    #hero-msg h1, #hero-msg h4 {
         max-width: 900px;
         margin: 0 auto;
         background-color: whitesmoke;
+        text-align: center;
       }
 
-      .icon {
+    .icon {
         width: 80px;
       }
 
-      .logo {
+    .logo {
         width: 80px;
       }
       
-      #hero-img {
+    #hero-img {
         width:100%;
       }
 
-      .button-box {
+    .button-box {
         max-width: 900px;
         margin: 0 auto;
         background-color: powderblue;
         color:rgb(235, 186, 26);
       }
     
-       main section {
+    main section {
         max-width: 900px;
         margin: 0 auto;
         background-color: whitesmoke;
         color:black;
       }
       
-      #background {
-        height: 900px;
+    #background {
+        height: 725px;
     }
    
-      body {
+    body {
         background-color: white;
       }
 
-      .logo {
+    .logo {
         max-width: 80px;
       }
 
       
       
-      header {
+    header {
         background-color: powderblue;
       }
       
-      nav a:hover {
+    nav a {
+        color:rgb(235, 186, 26);
+        text-align: center;
+      }
+      
+      
+    nav a:hover {
         background-color: rgb(235, 186, 26);
         color:aliceblue;
       }
 
-    nav a header{
+          nav a header{
         text-align: center;
         background-color: rgb(235, 186, 26);
         color:aliceblue;
       }
 
-     .book, .join {
+    .book, .join {
         text-align: center;
         background-color: yellow;
         text-decoration: none;
