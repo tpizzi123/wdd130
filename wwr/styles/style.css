@@ -1,144 +1,115 @@
-    div {
-        max-width: 900px;
-        margin: 0 auto;
-        background-color: whitesmoke
-        }
-      
-    nav a {
-        max-width: 900px;
-        margin: 0 auto;
-        background-color: whitesmoke;
-        text-decoration: none;
-      }
-
-    #hero-msg h1, #hero-msg h4 {
-        max-width: 900px;
-        margin: 0 auto;
-        background-color: whitesmoke;
-        text-align: center;
-      }
-
-    .icon {
-        width: 80px;
-      }
-
-    .logo {
-        width: 80px;
-      }
-      
-    #hero-img {
-        width:100%;
-      }
-
-    .button-box {
-        max-width: 900px;
-        margin: 0 auto;
-        background-color: powderblue;
-        color:rgb(235, 186, 26);
-      }
-    
-    main section {
-        max-width: 900px;
-        margin: 0 auto;
-        background-color: whitesmoke;
-        color:black;
-      }
-      
-    #background {
-        height: 725px;
-    }
-   
-    body {
-        background-color: white;
-      }
-
-    .logo {
-        max-width: 80px;
-      }
-
-      
-      
-    header {
-        background-color: powderblue;
-      }
-      
-    nav a {
-        color:rgb(235, 186, 26);
-        text-align: center;
-      }
-      
-      
-    nav a:hover {
-        background-color: rgb(235, 186, 26);
-        color:aliceblue;
-      }
-
-          nav a header{
-        text-align: center;
-        background-color: rgb(235, 186, 26);
-        color:aliceblue;
-      }
-
-    .book, .join {
-        text-align: center;
-        background-color: yellow;
-        text-decoration: none;
-      }
-   
-    .book:hover, .join:hover {
-      color: black;  
-      background-color: rgb(235, 186, 26);
-      }
-   
-    #backround {
-        background-color: black;
-      }
-
-    .msg{
-        background-color: white;
-      }
-
-    footer p{
-        background-color: white;
-        font-size: 1.2em;
-      }
-
-    footer p a:hover {
-        background-color: black;
-        font-size: 1.2em;
-        text-decoration: underline;}
-      
-      
-    .home-title {
-        background-color: rgb(0, 8, 255);
-        color:aliceblue;}
-    
-        h1 {
-        background-color: white;
-        color: aliceblue;}
-      
-     .book, .join {
-        background-color: powderblue;
-        color:black;}
-
-     .msg h2 {
-        background-color: powderblue;
-        color:black;}
-    
-    .msg p {
-        color:black;}
-
-    footer a {
-        text-align: center;
-        background-color: powderblue;
-        color:black;
-        text-decoration: none;}
-
-    footer a:hover {
-        background-color: rgb(235, 186, 26);
-        color: powderblue;}
-   
-   
-   
-    
-
+  div {
+  max-width : 1200px;
+  margin : 0 auto;
+  background-color : whitesmoke;
+  }
+  nav a {
+  max-width : 900px;
+  margin : 0 auto;
+  background-color : whitesmoke;
+  text-decoration : none;
+  }
+  #hero-msg h1, #hero-msg h4 {
+  max-width : 1600px;
+  margin : 0 auto;
+  background-color : whitesmoke;
+  text-align : center;
+  }
+  .icon {
+  width : 80px;
+  padding-top : 10px;
+  }
+  .logo {
+  width : 80px;
+  }
+  #hero-img {
+  width : 100%;
+  }
+  .button-box {
+  max-width : 900px;
+  margin : 0 auto;
+  background-color : greenyellow;
+  color : rgb(235, 186, 26);
+  }
+  main section {
+  max-width : 500px;
+  margin : 0 auto;
+  background-color : whitesmoke;
+  color : black;
+  }
+  #background {
+  height : 725px;
+  }
+  body {
+  background-color : whitesmoke;
+  margin : 0;
+  padding : 0;
+  }
+  h2 {
+  margin : 0;
+  }
+  .logo {
+  max-width : 80px;
+  }
+  #logo_link {
+  padding-top : 5px;
+  }
+  header {
+  background-color : powderblue;
+  }
+  nav a {
+  color : rgb(235, 186, 26);
+  text-align : center;
+  padding : 10px;
+  }
+  nav a:hover {
+  background-color : rgb(235, 186, 26);
+  color : aliceblue;
+  }
+  nav a header {
+  text-align : center;
+  background-color : red;
+  color : aliceblue;
+  }
+  .book, .join {
+  text-align : center;
+  background-color : rgb(235, 186, 26);
+  text-decoration : none;
+  font-size : 18px;
+  padding : 15px 30px;
+  margin-top : 50px;
+  border-radius : 5px;
+  }
+  .card-img {
+  border : rgb(235, 186, 26) solid 10px;
+  }
+  main section img {
+  box-sizing : border-box;
+  }
+  .book:hover, .join:hover {
+  color : rgb(0, 0, 0);
+  background-color : rgb(235, 186, 26);
+  }
+  #backround {
+  background-color : red;
+  }
+  .msg {
+  background-color : powderblue;
+  line-height : 1.5em;
+  padding : 35px;
+  }
+  footer p {
+  background-color : whitesmoke;
+  font-size : 1.2em;
+  }
+  footer p a:hover {
+  background-color : rgb(235, 186, 26);
+  font-size : 1.2em;
+  text-decoration : underline;
+  }
+  .home-title {
+  background-color : red;
+  color : black;
+  font-family : 'Rock Salt', 'Bradley Hand', sans-serif;
+  font-size : 2em;
+  }
