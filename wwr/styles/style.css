@@ -194,7 +194,7 @@
                 padding : 35px;
                 }
                 footer p {
-                background-color : whitesmoke;
+                background-color : powderblue;
                 font-size : 1.2em;
                 }
                 footer p a:hover {
@@ -233,7 +233,7 @@
                 box-shadow : 5px 5px 10px black;
                 }
                 footer {
-                background-color : whitesmoke;
+                background-color : #6f7364;
                 padding : 25px 50px;
                 margin-top : 200px;
                 display : flex;
