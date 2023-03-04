@@ -1,5 +1,3 @@
-/* global styles */
-
 body {
     margin: 0;
     padding: 0;
@@ -11,9 +9,8 @@ body {
     color: inherit;
   }
   
-  /* header styles */
-  
-  header {
+
+   header {
     background-color: powderblue;
     padding: 10px;
   }
@@ -23,39 +20,34 @@ body {
     height: 100px;
   }
   
-  /* main styles */
-  
-  .rafting-grid {
+   .rafting-grid {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: auto;
-    grid-gap: 20px;
+    grid-gap: 39px;
     padding: 20px;
     margin-top: 50px;
-  }
-  
+  }  
   .rafting-card {
     background-color: #6f7364;
-    background-color: ;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 45px;
   }
   
   .kayak-card {
     background-color : #6f7364;
-    background-color: ;
     grid-column: 3 / 4;
     grid-row: 1 / 2;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
   }
   
   .images {
@@ -75,22 +67,7 @@ body {
     margin-bottom: 20px;
   }
   
-  /* footer styles */
-  
-  
-  
- 
-The .kayak-card img selector specifies the styling for the kayak image. The width: 100%; rule tells the image to take up the full width of its container, which is the .kayak-card div. This will make it the same size as the other image.
-
-
-
-
-  Note that this is just an example, and you may need to adjust the styles based on your specific design requirements.
-  
-  
-  
- 
-    #logo_link {
+   #logo_link {
     padding-top : 5px;
     padding-top : 5px;
     }
@@ -211,6 +188,7 @@ The .kayak-card img selector specifies the styling for the kayak image. The widt
     background-color : #6f7364;
     color : rgb(235, 186, 26);
     text-align : center;
+    padding : 15px 15px;;
     }
     .icon {
     width : 80px;
