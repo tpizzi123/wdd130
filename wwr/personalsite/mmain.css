@@ -1,9 +1,10 @@
 header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: #68C99F;
     color: white;
-    padding:15px;
+    padding:20px;
   }
 
   body {
@@ -68,14 +69,15 @@ header {
 
   footer {
     background-color: #808080;
+    text-decoration: none
     color: white;
     text-align: center;
     padding: 10px;
   }
   
- 
   .social img {
-    width: 40px;
+    text-decoration: none
+   width: 40px;
     height: 40px;
     margin: 0px 5px;
   }
