@@ -21,6 +21,11 @@ header {
     text-decoration: none;
     margin-right: 10px;
   }
+
+  nav a:hover {
+    color: #F5F5F5;
+    background-color: #808080;
+  }
   
   .main-grid {
     font-family: 'Rocksalt';
@@ -36,6 +41,7 @@ header {
     padding: 20px;
     box-shadow: 0px 0px 5px black;
   }
+
   
   .shoe-image {
     width: 100%;
@@ -51,6 +57,12 @@ header {
     padding: 10px;
     text-decoration: none;
     margin-top: 20px;
+    transition: transform 0.3s ease;
+    
+  }
+
+  .buy-now:hover {
+    transform: scale(1.1);
   }
   
   .secondary-card {
@@ -69,15 +81,84 @@ header {
 
   footer {
     background-color: #808080;
-    text-decoration: none
+    text-decoration: none;
     color: white;
     text-align: center;
     padding: 10px;
   }
   
   .social img {
-    text-decoration: none
-   width: 40px;
+    text-decoration: none;
+    width: 40px;
     height: 40px;
     margin: 0px 5px;
   }
+
+  .social a {
+    text-decoration: none;
+  }
+  
+
+  .images-container, .button-container {
+    display: flex;
+  }
+  
+  .images-container {
+    flex: 1;
+  }
+  
+  .button-container {
+    flex: 1;
+  }
+  
+  .product-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    box-shadow: 0px 0px 5px #68C99F;
+  }
+  
+  .product-container ul {
+    list-style: none;
+    font-family: 'Rocksalt';
+    padding: 40px;
+    margin: 0;
+  
+  }
+
+  
+  .product-container li {
+    font-family: 'Rocksalt';
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .product-container li img {
+    max-width: 400px;
+    max-height: 400px;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    transition: transform 0.3s ease;
+  }
+
+  .product-container li img:hover {
+    transform: scale(1.1);
+  }
+  
+
+  .btn {
+    display: inline-block;
+    padding: 25px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #808080;
+  }
+  

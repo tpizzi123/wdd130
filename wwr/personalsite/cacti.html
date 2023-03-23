@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oreder Information</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="mmain.css">
 </head>
 <body>
 
@@ -19,7 +19,7 @@
             <a href="personalindex.html">Home</a>
             <a href="jordan.html">Jordan</a>
             <a href="nike.html">Nike</a>
-            <a href="cacti.html">Contact Us</a>
+            <a href="cacti.html">Order Now</a>
         </nav>
     </header>
     <div id="feedback"></div>
@@ -36,12 +36,12 @@
                     <label for="mail">Email:</label>
                     <input type="email" id="mail" name="user_email" />
                   </li>
-                  <li>
-                    <label for="msg">Message:</label>
-                    <textarea id="msg" name="user_message"></textarea>
-                  </li>
+                  
                   <li class="button">
-                    <button type="submit">Send your message</button>
+                    <button type="submit">Sign in</button>
+                  </li>
+                  <li class="note">
+                    <button type="submit">Click here to create account
                   </li>
                 </ul>
               </form>
@@ -59,7 +59,7 @@
             // stop the form from doing the default action.
             e.preventDefault();
             // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you Sneakers will get back with you as soon as possible!';
             // make the feedback element visible.
             feedbackElement.style.display = "block";
             // add a class to move everything down so our message doesn't cover it.
