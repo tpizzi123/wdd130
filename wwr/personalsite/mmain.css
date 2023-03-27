@@ -19,7 +19,7 @@ header {
   nav a {
     color: white;
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 20px;
   }
 
   nav a:hover {
@@ -139,7 +139,7 @@ header {
     margin-right: 10px;
     border-radius: 5px;
     box-shadow: 0px 0px 5px black;
-    transition: transform 0.3s ease;
+    transition: transform 0.1s ease;
   }
 
   .product-container li img:hover {
@@ -150,15 +150,20 @@ header {
   .btn {
     display: inline-block;
     padding: 25px 20px;
-    background-color: #000;
+    background-color: black;
     color: #fff;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.1s ease;
   }
   
   .btn:hover {
     background-color: #808080;
   }
+
+
+  
+
+  
   
